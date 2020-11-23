@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# New York Times Clone
 
-> One paragraph statement about the project.
+> Project as part of HTML AND CSS module for Microverse program.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,9 +10,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages -- HTML and CSS
+- Frameworks -- None
+- Technologies used -- Basic
 
 ## Live Demo
 
