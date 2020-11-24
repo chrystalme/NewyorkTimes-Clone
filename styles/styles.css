@@ -1,4 +1,32 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+/* Header section */
+/* navigation section */
+/* footer section */
 img {
-    height: 50%;
-    width: 20px;
+    width: 20%;
+}
+
+@media (max-width: 120rem){
+
+}
+@media (max-width: 60rem){
+
+}
+@media (min-width: 59.9rem){
+
 }
