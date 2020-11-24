@@ -1,5 +1,7 @@
 /* Global reset */
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -15,11 +17,56 @@ body{
 }
 
 /* Header section */
-/* navigation section */
-/* footer section */
-img {
+
+.header__container {
+   display: flex;
+   height: 4rem;
+   width: 100%;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 1px solid #e2e2e2;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    margin: 0 3rem 0 3rem;
+}
+
+.icon-1 {
+    margin-right: 3rem;
+}
+
+.header__text {
+    font-weight: 600;
+    font-size: 1.6rem;
+    width: 10rem;
+    display: inline;
+}
+
+.logo__container {
+    
+}
+
+.logo_img {
     width: 20%;
 }
+
+.button__container {
+    display: flex;
+
+}
+
+.btn {
+    background-color: rgb(50, 104, 145);
+}
+
+/* Header section ends here */
+
+/* navigation section */
+/* footer section */
 
 @media (max-width: 120rem){
 
