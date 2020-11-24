@@ -24,14 +24,14 @@ body{
    width: 100%;
    flex-direction: row;
    align-items: center;
-   justify-content: center;
+   justify-content: space-around;
    border-bottom: 1px solid #e2e2e2;
 }
 
 .header__icons {
     display: flex;
     align-items: center;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0 3rem 0 3rem;
 }
 
@@ -39,19 +39,21 @@ body{
     margin-right: 3rem;
 }
 
-.header__text {
-    font-weight: 600;
+.header__text {    
+    font-weight: 700;
     font-size: 1.6rem;
-    width: 10rem;
+    text-transform: uppercase;
     display: inline;
 }
-
-.logo__container {
-    
+.header__left-panel {
+    display: flex;
 }
 
+.logo__container {    
+   }
+
 .logo_img {
-    width: 20%;
+    width: 20rem;
 }
 
 .button__container {
@@ -61,11 +63,43 @@ body{
 
 .btn {
     background-color: rgb(50, 104, 145);
+    color: white;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .5rem;
+    
+}
+.btn:active {
+    outline: none;
+}
+.btn:last-child {
+    margin-left: .5rem;
+    margin-right: 1rem;
 }
 
 /* Header section ends here */
+/* article section */
+article{
+    margin: auto;
+    align-items: center;
+}
+article h1 {
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 3px;
+    color: #121212;
+}
+.article__img-top {
+    height: auto;
+    width: 75%;
+}
 
-/* navigation section */
+/* end article section */
 /* footer section */
 
 @media (max-width: 120rem){
