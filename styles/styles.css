@@ -94,9 +94,41 @@ article h1 {
     letter-spacing: 3px;
     color: #121212;
 }
+
+.article__top {
+    text-align: center;
+}
+
 .article__img-top {
     height: auto;
-    width: 75%;
+    width: 70%;
+}
+
+.article__top h3 {
+    color: #666;
+} 
+
+.main__article{
+    width: 30%;
+    margin: auto;
+    font-size: 1.8rem;
+    word-spacing: 1px;
+    line-height: 1.5;
+    text-align: justify;
+  text-justify: inter-word;
+    font-weight: 500;
+    color: #333;
+    
+}
+
+.main__article-heading {
+
+}
+
+.main__article-sub {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
 }
 
 /* end article section */
