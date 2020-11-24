@@ -105,11 +105,13 @@ article h1 {
 }
 
 .article__top h3 {
+    margin: auto;
     color: #666;
+    width: 70%;
 } 
 
 .main__article{
-    width: 30%;
+    width: 55rem;
     margin: auto;
     font-size: 1.8rem;
     word-spacing: 1px;
@@ -122,13 +124,23 @@ article h1 {
 }
 
 .main__article-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 2rem;
 
 }
+.main__article-heading a {
+    text-decoration: none;
+    color: #121212;
+    }
 
 .main__article-sub {
     display: flex;
     justify-content: space-between;
     margin: 2rem 0;
+}
+.article__details p {
+    margin-bottom: 1rem;
 }
 
 /* end article section */
