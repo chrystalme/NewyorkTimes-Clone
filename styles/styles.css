@@ -19,13 +19,13 @@ body{
 /* Header section */
 
 .header__container {
-   display: flex;
-   height: 4rem;
-   width: 100%;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-around;
-   border-bottom: 1px solid #e2e2e2;
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #e2e2e2;
 }
 
 .header__icons {
@@ -55,7 +55,7 @@ body{
 
 .button__container {
     display: flex;
-
+    
 }
 
 .btn {
@@ -157,7 +157,7 @@ article h1 {
     word-spacing: 1px;
     line-height: 1.5;
     text-align: justify;
-  text-justify: inter-word;
+    text-justify: inter-word;
     font-weight: 500;
     color: #333;
     
@@ -178,12 +178,12 @@ article h1 {
     font-weight: bold;
     font-size: 1.5rem;
     margin-top: 2rem;
-
+    
 }
 .main__article-heading a {
     text-decoration: none;
     color: #121212;
-    }
+}
 
 .main__article-sub {
     display: flex;
@@ -203,6 +203,7 @@ article h1 {
 .article__footnote {
     display: block;
     font-size: 1.2rem;
+    font-weight: 300;
     color: #969696;
     line-height: 1; 
     margin: 5px 0;   
@@ -269,8 +270,8 @@ button {
     margin-left: 3rem;
     float: left;
 }
-.suggestion__button img{
-    width: .1rem;
+button > img{
+    width: 5px;
     float: left;
 }
 .newsletter-heading span {
@@ -321,7 +322,7 @@ button {
 
 /* section ends */
 /* footer section */
-footer {  
+/* footer {  
     border-top: 1px double black;
     width: 90%;
     margin: auto;
@@ -357,7 +358,7 @@ footer {
 .footer a {
     text-decoration: none;
 }
-
+*/
 .footer__logo {
     width: 20rem;
 }
@@ -369,9 +370,9 @@ footer {
     text-decoration: none;
     color: aquamarine;
     float: right;
-
+    
 }
-
+/*
 .footer__nav{
     float: right;
 }
@@ -382,6 +383,7 @@ footer {
 .nav__ul a {
     color: #999;
 }
+*/
 .footer__copyright {
     margin-left: 20rem;
     margin-bottom: 5rem;
@@ -397,18 +399,18 @@ footer {
 
 .footer__copyright a:hover{
     text-decoration: #666;
-}
+} 
 
 
 
 /* footer ends */
 
 @media (max-width: 120rem){
-
+    
 }
 @media (max-width: 60rem){
-
+    
 }
 @media (min-width: 59.9rem){
-
+    
 }
