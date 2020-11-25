@@ -122,6 +122,17 @@ article h1 {
     color: #333;
     
 }
+.main__date {
+    font-size: 1.2rem;
+}
+.main__icons a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.main__icons:hover {
+    color: #666;
+}
 
 .main__article-heading {
     font-weight: bold;
@@ -142,9 +153,101 @@ article h1 {
 .article__details p {
     margin-bottom: 1rem;
 }
+.article__details-caption {
+    text-align: center;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    margin: 5rem;
+    padding: 2rem;
+}
+
 
 /* end article section */
+/* aside */
+aside {
+    border-top: 1px solid black;
+    width: 40rem;
+    margin-right: 12rem;
+    float: right;
+}
+aside a{
+    text-decoration: none;
+}
+aside ul {
+    list-style: none;
+}
+/* aside ends */
+/* section */
+button {
+    width: 30%;
+    margin-left: 2rem;
+    cursor: pointer;
+    border: none;
+    float: left;  
+}
+.suggestion__button {
+    
+}
+.suggestion__button img{
+    width: 5rem;
+    float: left;
+}
+.newsletter-heading span {
+    float: right;
+}
+.section{
+    border-top: 1px solid black;
+    width: 55%;
+    margin-left: 12rem;
+    float:left;
+    margin: 3rem 2rem;
+}
+.section__sub{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    line-height: 1;
+}
+.section__sub div{
+    float: left;
+    width: 30%;
+    margin: .5rem;
+    
+}
+.section__sub span {
+    font-size: 1rem;
+    color: #666;
+}
+.section__sub h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.section__sub img {
+    width: 25rem;
+    
+}
+.section__sub a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+/* section ends */
 /* footer section */
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 3rem 3rem 2rem 3rem;
+    color: #666;
+    border-top: 1px double black;
+}
+.footer__logo {
+
+}
+
+/* footer ends */
 
 @media (max-width: 120rem){
 
