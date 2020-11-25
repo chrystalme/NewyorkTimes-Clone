@@ -49,9 +49,6 @@ body{
     display: flex;
 }
 
-.logo__container {    
-   }
-
 .logo_img {
     width: 20rem;
 }
@@ -94,6 +91,43 @@ article h1 {
     letter-spacing: 3px;
     color: #121212;
 }
+.article__inflation {
+    width: 100rem;
+    margin: 0 3rem;
+    text-align: center;
+}
+.article__inflation img {
+    width: 80%;
+}
+.article__side-note{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    border-top: 1px solid #666;  
+}
+
+.article__side-note-heading {
+    padding-right: .3rem;
+    margin-top: 1.5rem;
+}
+.article__side-note input[type="button"] {
+    display: block;
+    padding: 4px;
+    border: 1px solid #121212;
+    background-color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    float: right;
+    margin-left: 1em;
+    margin-top: 1.5rem;
+}
+.article__side-note input[type="button"]:hover {
+    background-color: black;
+    color: white;
+}
 
 .article__top {
     text-align: center;
@@ -109,6 +143,12 @@ article h1 {
     color: #666;
     width: 70%;
 } 
+.article__bottom {
+    text-align: center;
+}
+.article__img-bottom {
+    width: 150%;
+}
 
 .main__article{
     width: 55rem;
@@ -160,47 +200,92 @@ article h1 {
     margin: 5rem;
     padding: 2rem;
 }
-
+.article__footnote {
+    display: block;
+    font-size: 1.2rem;
+    color: #969696;
+    line-height: 1; 
+    margin: 5px 0;   
+}
+.article__footnote a {
+    /* text-decoration: none; */
+    color: #969696;
+    border-right: 1px solid #666;
+    height:40%;
+    padding-right: 5px;
+}
+.article__footnote a:hover {
+    text-decoration: none; 
+}
+.article__footnote a:last-child {
+    border-right: none;
+}
+.article__footnote-btn {
+    width: 300px;
+}
+.article__footnote-icons {
+    float: right;
+}
 
 /* end article section */
 /* aside */
-aside {
+.aside {
+    position: relative;
+    top: 5px;
     border-top: 1px solid black;
     width: 40rem;
     margin-right: 12rem;
     float: right;
 }
-aside a{
-    text-decoration: none;
+.aside h2{
+    margin-top: 1rem;
+    font-size: 1.5rem;
 }
-aside ul {
+.aside a{
+    text-decoration: none;    
+    color: #333;
+}
+.aside li {
+    padding-top: 1rem;
+    border-top: 1px solid rgb(206, 206, 206);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.aside ul {
     list-style: none;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 /* aside ends */
 /* section */
-button {
-    width: 30%;
-    margin-left: 2rem;
+button {    
     cursor: pointer;
     border: none;
-    float: left;  
+    height: 30rem;      
 }
 .suggestion__button {
-    
+    width: 30%;
+    margin-left: 3rem;
+    float: left;
 }
 .suggestion__button img{
-    width: 5rem;
+    width: .1rem;
     float: left;
 }
 .newsletter-heading span {
     float: right;
+    clear: both;
+}
+.newsletter-heading h3 {
+    float: left;
 }
 .section{
     border-top: 1px solid black;
     width: 55%;
     margin-left: 12rem;
-    float:left;
-    margin: 3rem 2rem;
+    float: left;
+    text-align: left;
 }
 .section__sub{
     text-decoration: none;
@@ -212,7 +297,7 @@ button {
 .section__sub div{
     float: left;
     width: 30%;
-    margin: .5rem;
+    margin: 1.3rem;
     
 }
 .section__sub span {
@@ -236,16 +321,85 @@ button {
 
 /* section ends */
 /* footer section */
-footer{
-    display: flex;
-    flex-flow: row wrap;
-    padding: 3rem 3rem 2rem 3rem;
-    color: #666;
+footer {  
     border-top: 1px double black;
+    width: 90%;
+    margin: auto;
+    align-content: center;
 }
+.header {
+    display: inline;
+    float: left;
+}
+
+.footer{   
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px auto ;
+    grid-template-columns: auto;
+    grid-gap: 15px; 
+    color: #666;
+    align-items: center;
+    padding: 3rem 3rem 2rem 3rem;
+    
+}
+
+.nav__title {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer li {
+    line-height: 2rem;
+}
+.footer a {
+    text-decoration: none;
+}
+
 .footer__logo {
+    width: 20rem;
+}
+.footer__logo img {
+    width: 20rem;
+}
+.footer__logo a {
+    display: inline;
+    text-decoration: none;
+    color: aquamarine;
+    float: right;
 
 }
+
+.footer__nav{
+    float: right;
+}
+.nav__ul{
+    width: 50px;
+}
+
+.nav__ul a {
+    color: #999;
+}
+.footer__copyright {
+    margin-left: 20rem;
+    margin-bottom: 5rem;
+    border-top: 1px solid #e2e2e2;
+    text-align: center;
+    margin-top: 2rem;
+}
+.footer__copyright a{
+    text-decoration: none;    
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer__copyright a:hover{
+    text-decoration: #666;
+}
+
+
 
 /* footer ends */
 

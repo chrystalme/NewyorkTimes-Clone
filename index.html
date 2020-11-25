@@ -113,11 +113,11 @@
                             <p>
                                 Dr. Kovac and his collaborators, working in an experiment known as Bicep, for Background Imaging of Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the Center for Astrophysics here on Monday and in a set of papers submitted to The Astrophysical Journal.
                             </p>                            
-                            <div>
+                            <div class="article__inflation">
                                 <div>
                                     <h3>The Theory of Inflation</h3>
                                     <div>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</div>
-                                    <div>
+                                    <div class="article__inflation-container">
                                         <img src="images/inflation-945.png" alt="">
                                         <p>THE UNIVERSE  is just under 14 billion years old. From our position in the Milky Way galaxy,
                                              we can observe a sphere that is now about 92 billion light-years across.
@@ -177,12 +177,12 @@
                             in his office last week.
                             </p>
                             
-                            <div>
-                                <div>
-                                   <span>THE MORNING:</span> Make sense of the day’s news and ideas.
+                            <div class="article__side-note">
+                                   <div class="article__side-note-heading">
+                                       <strong> THE MORNING: </strong> Make sense of the day’s news and ideas.
                                     David Leonhardt and Times journalists guide you through
                                     what’s happening — and why it matters.
-                                </div>
+                                   </div>
                                 <input type="button" value="Sign Up">
                             </div>
                             <p>
@@ -247,8 +247,8 @@
                         <p>
                             “The South Pole is the closest you can get to space and still be on the ground,” Dr. Kovac said. He has been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever since,” he said.
                         </p>
-                        <div>
-                            <img src="images/18cosmos-2-jumbo.jpg" alt="">
+                        <div class="article__bottom">
+                            <img class="article__img-bottom" src="images/18cosmos-2-jumbo.jpg" alt="">
                             <span>
                                 The Bicep2 telescope, in the foreground, 
                                 was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched
@@ -311,17 +311,20 @@
                         <p>
                             “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”
                         </p>
-                        <div>
-                            A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun.
+                        <div class="article__footnote">
+                           <span>
+                            A version of this article appears in print on March 18, 2014, Section A,
+                             Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun.
+                           </span> 
                             <a href="#">Order Reprints</a>
                             <a href="#">Today&apos;s Paper</a>
                             <a href="#">Subscribe</a>
                         </div>
                         <div>
                             <div>
-                                <input class="btn" type="button" value="Read Comments">
+                                <input class="article__footnote-btn btn" type="button" value="Read 650 Comments">
                             </div>
-                            <div>
+                            <div class="article__footnote-icons">
                                 <a href="#"><i class="fab fa-facebook"></i></a> 
                                 <a href="#"><i class="fab fa-twitter"></i></a>  
                                 <a href="mailto:"><i class="fas fa-envelope"></i></a> 
@@ -335,11 +338,11 @@
         </article>
         <section>
             <div class="section section__sub">
-                <div class="section__sub newsletter-heading">
+                <sub class="newsletter-heading">
                     <h2>Suggested Newsletters for you</h2>
                     <span>Don&apos;t show this again</span>
-                </div>               
-                <div><button class="suggestion__button">
+                </sub>               
+                <div  class="suggestion__button"><button>
                     <img src="images/pexels-aleksandar-pasaric-1820770.jpg" alt="">
                     <i class="fas fa-plus-circle"></i>
                     <span>As Needed</span>
@@ -347,7 +350,7 @@
                     <p>Alerts when important news break around the world.</p>
                     <a href="#">See the latest</a>
                 </button></div>
-                <div><button class="suggestion__button">
+                <div class="suggestion__button"><button>
                     <img src="images/pexels-lumn-316465.jpg" alt="">
                     <i class="fas fa-plus-circle"></i>
                     <span>Weekly</span>
@@ -355,7 +358,7 @@
                     <p>Our best suggestion on how to live a full and cultured kife during the pandemic, at home.</p>
                     <a href="#">See the latest</a>
                 </button></div>
-                <div><button class="suggestion__button">
+                <div  class="suggestion__button"><button>
                     <img src="images/pexels-madison-inouye-2821823.jpg" alt="">
                     <i class="fas fa-plus-circle"></i>
                     <span>Daily</span>
@@ -416,7 +419,7 @@
                 </div>
             </div>
         </section>
-        <aside>
+        <aside class="aside">
             <h2>Most Popular</h2>
             <ul>
                 <li><a href="#">Why Were Canadians Warned Not to Let Moose Lick Their Cars?</a></li>
@@ -432,16 +435,18 @@
             </ul>
         </aside>
     </main>
-    <footer>
-        <div class="footer__logo">
+ <footer>
+            <header class="footer__logo">
             <img src="images/img_logo.png" alt="NewYork Times logo">
-            <a href="#">Go to Home Page</a>
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <ul>
-                        <li>NEWS</li>
+            <a href="#">Go to Home Page &Gt;</a>
+            </header>
+
+        <div  class="footer">
+            
+            <ul class="footer__nav">
+                <li class="nav__item">                    
+                    <h2 class="nav__title">NEWS</h2>
+                    <ul class="nav__ul">
                         <li><a href="#">homepage</a></li>
                         <li><a href="#">world</a></li>
                         <li><a href="#">us</a></li>
@@ -452,9 +457,9 @@
                         <li><a href="#">tech</a></li>
                         <li><a href="#">science</a></li>
                         <li><a href="#">sports</a></li>
-                    </ul>
-                    <ul>
-                        <li>OPINION</li>
+                    </ul>                    
+                    <h2 class="nav__title">OPINION</h2>
+                    <ul class="nav__ul">
                         <li><a href="#">todays opinion</a></li>
                         <li><a href="#">op ed columnist</a></li>
                         <li><a href="#">editorials</a></li>
@@ -463,8 +468,8 @@
                         <li><a href="#">sunday reviews</a></li>
                         <li><a href="#">video: opinion</a></li>
                     </ul>
-                    <ul>
-                        <li>ARTS</li>
+                        <h2 class="nav__title">ARTS</h2>
+                    <ul class="nav__ul">
                         <li><a href="#">todays arts</a></li>
                         <li><a href="#">Arts & design</a></li>
                         <li><a href="#">books</a></li>
@@ -475,8 +480,8 @@
                         <li><a href="#">television</a></li>
                         <li><a href="#">Theater</a></li>
                     </ul>
-                    <ul>
-                        <li>LIVING</li>
+                        <h2 class="nav__title">LIVING</h2>
+                    <ul class="nav__ul">
                         <li><a href="#">automobile</a></li>
                         <li><a href="#">games</a></li>
                         <li><a href="#">educaton</a></li>
@@ -491,8 +496,8 @@
                         <li><a href="#">T magazine</a></li>
                         <li><a href="#">Travel</a></li>
                     </ul>
-                    <ul>
-                        <li>MORE</li>
+                        <h2 class="nav__title">MORE</h2>
+                    <ul class="nav__ul">
                         <li><a href="#">reader center</a></li>
                         <li><a href="#">wirecutter</a></li>
                         <li><a href="#">live events</a></li>
@@ -507,8 +512,8 @@
                         <li><a href="#">times journey</a></li>
                         <li><a href="#">manage my account</a></li>
                     </ul>
-                    <ul>
-                        <li>SUBSCRIBE</li>
+                        <h2 class="nav__title">SUBSCRIBE</h2>
+                    <ul class="nav__ul">
                         <li><a href="#">Home delivery</a></li>
                         <li><a href="#">digital subscriptions</a></li>
                         <li><a href="#">games</a></li>
@@ -527,7 +532,7 @@
                 </li>
             </ul>
         </div>
-        <div>
+        <div class="footer__copyright">
             <a href="#">&copy; 2020 New York times</a>
             <a href="#">NYTCo</a>
             <a href="#">contact us</a>
@@ -542,7 +547,7 @@
             <a href="#">Help</a>
             <a href="#">subscriptions</a>
         </div>
-    </footer>
+    </footer> -->
 
 </body>
 </html>
