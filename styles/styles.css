@@ -75,7 +75,7 @@ body {
 
 /* Main container */
 
-.main__container{
+.main__container {
   border-bottom: 2px solid #666;
   margin-bottom: 5rem;
 }
@@ -101,7 +101,7 @@ margin: 3rem 0 3rem 0;
 text-align: center;
 } */
 
-button > img{
+button > img {
   clear: left;
   width: 5px;
 }
@@ -182,7 +182,7 @@ button > img{
   top: 48rem;
 }
 
-.article__side-note{
+.article__side-note {
   align-items: center;
   border-top: 1px solid #666;
   display: flex;
@@ -237,7 +237,7 @@ button > img{
   width: 150%;
 }
 
-.main__article{
+.main__article {
   color: #333;
   font-size: 1.8rem;
   font-weight: 500;
@@ -324,9 +324,13 @@ margin-top: 1rem;
 font-size: 1.5rem;
 } */
 
-.aside a{
+.aside a {
   color: #333;
   text-decoration: none;
+}
+
+.aside img {
+  width: 25rem;
 }
 
 .aside li {
@@ -341,9 +345,8 @@ font-size: 1.5rem;
   font-weight: 700;
   list-style: none;
 }
+
 /* aside ends */
-
-
 
 .article__footnote-btn {
   width: 300px;
@@ -367,7 +370,7 @@ button {
   width: 25%;
 }
 
-.section{
+.section {
   border-top: 1px solid black;  
   margin-left: 1.5rem;
   text-align: left;
@@ -384,10 +387,10 @@ button {
 
 .newsletter-heading span {
   float: right;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
-.section__sub{
+.section__sub {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -401,10 +404,9 @@ button {
 
 .section__sub-body {
   display: flex;
-
 }
 
-.section div{
+.section div {
   margin: 1.3rem;
 }
 
@@ -413,19 +415,11 @@ button {
   font-size: 1rem;
 }
 
- .section h2{
-font-size: 1.5rem;
-margin-bottom: 10px;
-margin-top: 10px;
+ .section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
 } 
-
-.article__footnote a:hover {
-  text-decoration: none;
-}
-
-.article__footnote a:last-child {
-  border-right: none;
-}
 
 .footer__main {
   border-top: 1px double black;
@@ -507,8 +501,16 @@ margin-top: 10px;
   text-decoration: #666;
 }
 
-@media (max-width: 120rem){
+.article__footnote a:hover {
+  text-decoration: none;
+}
 
+.article__footnote a:last-child {
+  border-right: none;
+}
+
+@media (max-width: 120rem){
+  
 }
 
 @media (max-width: 60rem){
