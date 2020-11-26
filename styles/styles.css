@@ -378,7 +378,7 @@ button {
   border-top: 1px solid black;
   margin-left: 1.5rem;
   text-align: left;
-  width: 60%;
+  width: 80%;
 }
 
 .section img {
@@ -402,7 +402,7 @@ button {
   font-size: 0.5rem;
   font-weight: 600;
   text-align: left;
-  width: 80%;
+  width: 70%;
 }
 
 .section__sub-body {
