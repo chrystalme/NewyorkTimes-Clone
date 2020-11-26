@@ -319,6 +319,10 @@ button > img {
   width: 80%;
 }
 
+.aside__container {
+  display: grid;
+}
+
 /* .aside h2{
 margin-top: 1rem;
 font-size: 1.5rem;
