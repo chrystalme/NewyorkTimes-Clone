@@ -371,7 +371,7 @@ button {
 }
 
 .section {
-  border-top: 1px solid black;  
+  border-top: 1px solid black;
   margin-left: 1.5rem;
   text-align: left;
   width: 60%;
@@ -387,7 +387,6 @@ button {
 
 .newsletter-heading span {
   float: right;
-  margin-bottom: 0px;
 }
 
 .section__sub {
@@ -398,7 +397,7 @@ button {
   color: rgb(36, 36, 36);
   font-size: 0.5rem;
   font-weight: 600;
-  text-align:left ;
+  text-align: left;
   width: 80%;
 }
 
@@ -422,17 +421,19 @@ button {
 } 
 
 .footer__main {
-  border-top: 1px double black;
+  border-top: 1px solid black;
+
   clear: right;
   margin: auto;
   width: 90%;
 }
 
-.footer{
+.footer {
   align-items: center;
   color: #666;
   display: flex; 
   padding: 3rem 3rem 2rem 3rem;
+
 }
 
 .nav__title {
@@ -475,7 +476,7 @@ button {
   float: right;
 }
 
-.nav__ul{
+.nav__ul {
   width: 50px;
 }
 
@@ -485,19 +486,20 @@ button {
 
 .footer__copyright {
   border-top: 1px solid #e2e2e2;
+
   margin-bottom: 5rem;
   margin-left: 20rem;
   margin-top: 2rem;
   text-align: center;
 }
 
-.footer__copyright a{
+.footer__copyright a {
   padding-left: 5px;
   padding-right: 5px;
   text-decoration: none;
 }
 
-.footer__copyright a:hover{
+.footer__copyright a:hover {
   text-decoration: #666;
 }
 
@@ -509,14 +511,14 @@ button {
   border-right: none;
 }
 
-@media (max-width: 120rem){
-  
-}
-
-@media (max-width: 60rem){
+@media (max-width: 120rem) {
 
 }
 
-@media (min-width: 59.9rem){
+@media (max-width: 60rem) {
+
+}
+
+@media (min-width: 59.9rem) {
 
 }
