@@ -11,7 +11,6 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif, Georgia, 'Times New Roman', Times, serif;
-
 }
 
 /* Header section */
@@ -58,9 +57,9 @@ body {
 .btn {
   background-color: rgb(50, 104, 145);
   border: none;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   color: white;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .btn:active {
@@ -68,19 +67,23 @@ body {
 }
 
 .btn:last-child {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   margin-right: 1rem;
 }
+
 /* Header section ends here */
 
 /* Main container */
+
 .main__container{
   border-bottom: 2px solid #666;
   margin-bottom: 5rem;
 }
 
 /* Main container ends */
+
 /* article section */
+
 .article {
   /* align-items: center; */
   margin: auto;
@@ -97,6 +100,11 @@ line-height: 2.5rem;
 margin: 3rem 0 3rem 0;
 text-align: center;
 } */
+
+button > img{
+  clear: left;
+  width: 5px;
+}
 
 .article__heading {
   color: #121212;
@@ -131,34 +139,44 @@ text-align: center;
   font-size: 1.1rem;
   width: 20rem;
 }
+
 .article__inflation-p1 {
   left: 0;
 }
+
 .article__inflation-p2 {
   left: 23rem;
 }
+
 .article__inflation-p3 {
   left: 46rem;
 }
+
 .article__inflation-p4 {
   left: 69rem;
 }
+
 .article__inflation-p5 {
   left: 0;
 }
+
 .article__inflation-p6 {
   left: 23rem;
 }
+
 .article__inflation-p7 {
   left: 46rem;
 }
+
 .article__inflation-p8 {
   left: 69rem;
 }
+
 .first_row {
   position: absolute;
   top: 22rem;
 }
+
 .second_row {
   position: absolute;
   top: 48rem;
@@ -176,7 +194,7 @@ text-align: center;
 
 .article__side-note-heading {
   margin-top: 1.5rem;
-  padding-right: .3rem;
+  padding-right: 0.3rem;
 }
 
 .article__side-note input[type="button"] {
@@ -287,37 +305,18 @@ text-align: center;
   /* text-decoration: none; */
   border-right: 1px solid #666;
   color: #969696;
-  height:40%;
+  height: 40%;
   padding-right: 5px;
 }
-
-.article__footnote a:hover {
-  text-decoration: none;
-}
-
-.article__footnote a:last-child {
-  border-right: none;
-}
-
-.article__footnote-btn {
-  width: 300px;
-}
-
-.article__footnote-icons {
-  float: right;
-}
-
-/* end article section */
 
 /* aside */
 
 .aside {
   border-top: 1px solid black;
-  float: right;
+  clear: both;
   margin-right: 12rem;
-  position: relative;
   top: 5px;
-  width: 40rem;
+  width: 80%;
 }
 
 /* .aside h2{
@@ -344,80 +343,89 @@ font-size: 1.5rem;
 }
 /* aside ends */
 
-/* section */
+
+
+.article__footnote-btn {
+  width: 300px;
+}
+
+.article__footnote-icons {
+  float: right;
+}
 
 button {
   border: none;
   cursor: pointer;
-  height: 30rem;
+  height: 5rem;
 }
 
 .suggestion__button {
+  border: 1px solid #e2e2e2;
   float: left;
   margin-left: 3rem;
-  width: 30%;
+  padding: 1rem;
+  width: 25%;
 }
 
-button > img{
-  clear: left;
-  width: 5px;
+.section{
+  border-top: 1px solid black;  
+  margin-left: 1.5rem;
+  text-align: left;
+  width: 60%;
+}
+
+.section img {
+  width: 25rem;
+}
+
+.suggestion__button img {
+  width: 10rem;
 }
 
 .newsletter-heading span {
-  clear: both;
   float: right;
-}
-
-/* .newsletter-heading h3 {
-float: left;
-} */
-
-.section{
-  border-top: 1px solid black;
-  float: left;
-  margin-left: 12rem;
-  text-align: left;
-  width: 55%;
+  margin-bottom: 0;
 }
 
 .section__sub{
-  color: #333;
-  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: rgb(36, 36, 36);
+  font-size: 0.5rem;
   font-weight: 600;
-  line-height: 1;
-  text-decoration: none;
+  text-align:left ;
+  width: 80%;
 }
 
-.section__sub div{
-  float: left;
+.section__sub-body {
+  display: flex;
+
+}
+
+.section div{
   margin: 1.3rem;
-  width: 30%;
-
 }
-.section__sub span {
+
+.section span {
   color: #666;
   font-size: 1rem;
 }
 
- .section__sub h2{
+ .section h2{
 font-size: 1.5rem;
 margin-bottom: 10px;
 margin-top: 10px;
 } 
 
-.section__sub img {
-  width: 25rem;
-}
-
-.section__sub a {
-  color: #333;
-  font-size: 1.5rem;
+.article__footnote a:hover {
   text-decoration: none;
 }
 
-/* section ends */
-
-/* footer section */
+.article__footnote a:last-child {
+  border-right: none;
+}
 
 .footer__main {
   border-top: 1px double black;
@@ -499,16 +507,14 @@ margin-top: 10px;
   text-decoration: #666;
 }
 
-
-
-/* footer ends */
-
 @media (max-width: 120rem){
 
 }
+
 @media (max-width: 60rem){
 
 }
+
 @media (min-width: 59.9rem){
 
 }
