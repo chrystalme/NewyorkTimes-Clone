@@ -415,9 +415,9 @@ button {
 }
 
  .section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  margin-top: 10px;
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+   margin-top: 10px;
 }
 
 .footer__main {
@@ -432,7 +432,6 @@ button {
   color: #666;
   display: flex;
   padding: 3rem 3rem 2rem 3rem;
-
 }
 
 .nav__title {
