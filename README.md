@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://chrystalme.github.io/newyorktimes-clone)
+[Live Demo Link](https://chrystalme.github.io/NewyorkTimes-Clone)
 
 
 ## Getting Started
