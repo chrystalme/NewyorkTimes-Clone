@@ -11,6 +11,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif, Georgia, "Times New Roman", Times, serif;
 }
+
 i {
   color: #666;
 }
@@ -22,7 +23,7 @@ i {
   border-bottom: 1px solid #e2e2e2;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -120,9 +121,10 @@ button > img {
 
 .article__inflation {
   display: block;
-  margin: auto;
+  margin: 0 auto 2rem auto;
   position: relative;
-  text-align: left;
+  text-align: revert;
+  width: 90rem;
 }
 
 .article__inflation span {
@@ -219,38 +221,46 @@ button > img {
 }
 
 .article__img-top {
-  height: auto;
+  margin: auto;
   width: 70%;
 }
 
 .article__text {
   color: #666;
   margin: auto;
+  text-align: left;
   width: 70%;
 }
 
-.article__bottom {
-  text-align: center;
+.article__text span {
+  color: #666;
+  font-size: 0.9rem;
 }
 
-.article__bottom span {
-  font-size: 1.2rem;
+.article__bottom {
+  margin: 0 auto;
+  text-align: left;
+  width: 90rem;
+}
+
+.article__bottom h4 {
+  color: #969696;
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
 
 .article__img-bottom {
-  width: 150%;
+  width: 90rem;
 }
 
 .main__article {
   color: #333;
   font-size: 1.8rem;
   font-weight: 500;
-  line-height: 1.5;
   margin: auto;
   text-align: justify;
   text-justify: inter-word;
-  width: 90rem;
-  word-spacing: 1px;
+  width: 120rem;
 }
 
 .main__date {
@@ -322,26 +332,29 @@ button > img {
 
 .aside {
   border-top: 1px solid black;
-  clear: both;
   margin-right: 6rem;
-  margin-left: 6rem;
-  top: 5px;
+  margin-left: 10rem;
+  width: 90rem;
 }
 
 .aside__container {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 200px;
-  justify-content: space-around;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
 }
 
-/* .aside h2{
-margin-top: 1rem;
-font-size: 1.5rem;
-} */
+.aside h2 {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
 
 .aside img {
   width: 25rem;
+}
+
+.aside a {
+  color: black;
+  text-decoration: none;
 }
 
 /* aside ends */
@@ -365,99 +378,119 @@ button {
   height: 5rem;
 }
 
+.section {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  column-gap: 5rem;
+  padding: 0 10rem;
+}
+
+.main__area {
+  border-top: 1px solid #121212;
+  padding-top: 2rem;
+}
+
+.suggested {
+  display: grid;
+  column-gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .suggestion__button {
   border: 1px solid #e2e2e2;
-  float: left;
-  margin-left: 3rem;
-  padding: 1rem;
-  width: 25%;
+  padding: 2rem;
+  width: 20rem;
+  height: 20rem;
+  position: relative;
 }
 
-.section {
-  border-top: 1px solid #333;
-  margin: auto;
-  text-align: left;
-  width: 90%;
+.suggestion__button i {
+  font-size: 3rem;
+  position: absolute;
+  right: 10px;
 }
 
-.section-img {
-  width: 25rem;
+.suggestion__button p {
+  font-size: 1.3rem;
+  /* line-height: 1.5px; */
 }
 
 .suggestion__button img {
-  width: 10rem;
+  width: 8rem;
 }
 
-.newsletter-heading span {
-  float: right;
+.section__side h2 {
+  border-top: 1px solid black;
+  padding-top: 2rem;
 }
 
-.section__sub {
-  clear: both;
-  display: flex;
-  color: rgb(36, 36, 36);
-  flex-direction: row;
-  flex-wrap: wrap;
-  font-size: 0.5rem;
-  font-weight: 600;
-  justify-content: flex-start;
-  text-align: left;
-  width: 70%;
-}
-
-.section__sub-side {
-  width: 30rem;
-  float: right;
-  top: 0;
-}
-
-.section__sub-side li {
-  border-top: 1px solid rgb(206, 206, 206);
+.section__side li {
+  border-top: 1px solid #969696;
   margin-bottom: 2rem;
   margin-top: 2rem;
   padding-top: 1rem;
 }
 
-.section__sub-side ul {
+.section_more {
+  border-top: 1px solid #121212;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.section_more h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section_more-container {
+  align-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.section_more-container div {
+  text-align: left;
+  width: 25rem;
+  padding: 2rem;
+}
+
+.section_more-container a {
+  color: #333;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.section_more img {
+  width: 25rem;
+}
+
+.section__side ul {
   font-size: 1.5rem;
   font-weight: 700;
   list-style: none;
 }
 
-.section__sub-side a {
+.section__side a {
   color: #333;
   text-decoration: none;
 }
 
-.section__sub-body {
+.suggested a {
+  text-decoration: none;
+  color: #333;
+}
+.anchor__link {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.newsletter-heading {
   display: flex;
-}
-
-.section div {
-  margin: 1.3rem;
-}
-
-.section span {
-  color: #666;
-  font-size: 1rem;
-}
-
-.section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.section__sub-2 {
-  align-content: space-between;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 65%;
-}
-
-.section__sub-2 img {
-  width: 20rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .footer__main {
@@ -525,9 +558,8 @@ button {
 
 .footer__copyright {
   border-top: 1px solid #e2e2e2;
-  margin-bottom: 5rem;
-  margin-left: 20rem;
-  margin-top: 2rem;
+  margin: 2rem auto;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -547,6 +579,10 @@ button {
 
 .article__footnote a:hover {
   text-decoration: none;
+}
+
+.section a:hover {
+  color: #969696;
 }
 
 .article__footnote a:last-child {
